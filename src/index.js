@@ -1,10 +1,11 @@
 //import react
 import React from 'react';
 import ReactDOM from 'react-dom';
+import API_KEY from './config';
 
 //Create a component that produces some HTML
-const App = function() => {
-	return <div>Hi!</div>;
+const App = () => {
+	return <div>{API_KEY}</div>;
 }
 
 //Take the components generated HTML and attach it to the DOM
